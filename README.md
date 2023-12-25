@@ -32,7 +32,7 @@ This script solves this problem by allowing you to set the trigger on Google App
     ```javascript
     const config = {
       mymail: "your.email@gmail.com", // Your Gmail email address
-      mylabel: "trash", // The label to target (e.g., "trash")
+      mylabel: LABEL_TRASH, // The label to target (e.g., "trash")
       permanentlyRemoveMyLabel: true, // Set to true for permanent removal, false otherwise
     };
     ```
