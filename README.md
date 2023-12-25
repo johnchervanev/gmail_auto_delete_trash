@@ -13,6 +13,14 @@ This Google Apps Script automates the process of permanently deleting emails fro
 
 - **Logging:** The script logs detailed information during execution, providing insights into the processed threads and any encountered errors.
 
+## Problem Solving
+
+By default, Gmail doesn’t automatically delete any emails, regardless of how old they are. You can have an email from a decade ago on Gmail, and the platform won’t delete it—even if your Gmail storage is full. Once you reach your storage limit on Gmail, you won’t be able to receive any new emails, but old messages remain intact.
+
+The only time Gmail automatically deletes an email is when it’s been labeled as Trash for 30 days. Gmail manages emails with a system of labels applied to each message. Inbox is a label, and so is Trash.
+
+**This script solves this problem by allowing you to set the trigger on Google Apps Scripts to auto delete everything without having to wait 30 days. For example, you can set the script to auto delete every hour.**
+
 ## Instructions
 
 1. Open the script in the [Google Apps Script Editor](https://script.google.com/).
@@ -20,7 +28,7 @@ This Google Apps Script automates the process of permanently deleting emails fro
     ```javascript
     const config = {
       mymail: "your.email@gmail.com", // Your Gmail email address
-      mylabel: "trash", // The label to target (e.g., "trash")
+      mylabel: "target_label", // The label to target (e.g., "trash")
       permanentlyRemoveMyLabel: true, // Set to true for permanent removal, false otherwise
     };
     ```
@@ -51,3 +59,4 @@ Contributions, issues, and feature requests are welcome. Feel free to open a pul
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+s
