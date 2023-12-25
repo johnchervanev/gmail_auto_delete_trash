@@ -39,13 +39,11 @@ The only time Gmail automatically deletes an email is when it’s been labeled a
 
 ## Setup Gmail API and Triggers
 
-1. Click on **Resources** and go to **Advanced Google Services**.
-2. Scroll down to **Gmail API** and turn it on.
-3. Click the **Google Cloud Platform Link** on the same window.
-4. Click on **Enable services and API**, search for Gmail, and enable it.
-5. Go back to your script screen and click on the menu **Edit**.
-6. Navigate to **Current project's triggers**.
-7. Set a trigger to run the script at a desired time interval (e.g., every minute/hour) for automated trash emptying.
+1. Locate **Services** and click **+Add a service**.
+2. Scroll down to **Gmail API** and click **add** to turn it on.
+3. Go back to your script screen and click on the menu **Triggers**.
+4. Navigate to **Current project's triggers** and click on **+ Add Trigger**
+5. Set a trigger to run the script at a desired time interval (e.g., every minute/hour) for automated trash emptying.
 
 ## Important Notes
 
