@@ -28,7 +28,7 @@ The only time Gmail automatically deletes an email is when it’s been labeled a
     ```javascript
     const config = {
       mymail: "your.email@gmail.com", // Your Gmail email address
-      mylabel: "target_label", // The label to target (e.g., "trash")
+      mylabel: "trash", // The label to target (e.g., "trash")
       permanentlyRemoveMyLabel: true, // Set to true for permanent removal, false otherwise
     };
     ```
