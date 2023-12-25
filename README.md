@@ -1,4 +1,4 @@
-# Gmail Script: Delete Emails from Trash
+# Gmail Script: Auto Delete Emails from Trash
 
 ## Overview
 
