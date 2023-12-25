@@ -44,7 +44,7 @@ This script solves this problem by allowing you to set the trigger on Google App
 ## Setup Gmail API and Triggers
 
 1. Locate **Services** and click **+Add a service**.
-2. Scroll down to **Gmail API** and click **add** to turn it on.
+2. Scroll down to **Gmail API** and click **Add** to turn it on.
 3. Go back to your script screen and click on the menu **Triggers**.
 4. Navigate to **Current project's triggers** and click on **+ Add Trigger**
 5. Set a trigger to run the script at a desired time interval (e.g., every minute/hour) for automated trash emptying.
