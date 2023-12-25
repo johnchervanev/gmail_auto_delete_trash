@@ -22,7 +22,7 @@ The only time Gmail automatically deletes an email is when it’s been labeled a
 
 ## Solution
 
-**This script solves this problem by allowing you to set the trigger on Google Apps Scripts to auto delete everything without having to wait 30 days. For example, you can set the script to auto delete every hour.**
+This script solves this problem by allowing you to set the trigger on Google Apps Scripts to auto delete everything without having to wait 30 days. For example, you can set the script to auto delete every hour.
 
 ## Instructions
 
