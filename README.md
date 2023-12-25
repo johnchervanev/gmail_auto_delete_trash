@@ -19,6 +19,9 @@ By default, Gmail doesn’t automatically delete any emails, regardless of how o
 
 The only time Gmail automatically deletes an email is when it’s been labeled as Trash for 30 days. Gmail manages emails with a system of labels applied to each message. Inbox is a label, and so is Trash.
 
+
+## Solution
+
 **This script solves this problem by allowing you to set the trigger on Google Apps Scripts to auto delete everything without having to wait 30 days. For example, you can set the script to auto delete every hour.**
 
 ## Instructions
