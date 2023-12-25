@@ -27,7 +27,8 @@ This script solves this problem by allowing you to set the trigger on Google App
 ## Instructions
 
 1. Open the script in the [Google Apps Script Editor](https://script.google.com/).
-2. Customize the `config` object with your Gmail account information and desired settings:
+2. Copy and paste the script.
+3. Customize the `config` object with your Gmail account information and desired settings:
     ```javascript
     const config = {
       mymail: "your.email@gmail.com", // Your Gmail email address
