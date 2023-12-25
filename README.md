@@ -32,7 +32,6 @@ The only time Gmail automatically deletes an email is when it’s been labeled a
       permanentlyRemoveMyLabel: true, // Set to true for permanent removal, false otherwise
     };
     ```
-3. Run the script to permanently delete emails from the specified Trash label.
 
 ## Important Notes
 
@@ -59,4 +58,4 @@ Contributions, issues, and feature requests are welcome. Feel free to open a pul
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-s
+
