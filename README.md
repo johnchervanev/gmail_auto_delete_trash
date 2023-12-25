@@ -13,7 +13,7 @@ This Google Apps Script automates the process of permanently deleting emails fro
 
 - **Logging:** The script logs detailed information during execution, providing insights into the processed threads and any encountered errors.
 
-## Problem Solving
+## Problem
 
 By default, Gmail doesn’t automatically delete any emails, regardless of how old they are. You can have an email from a decade ago on Gmail, and the platform won’t delete it—even if your Gmail storage is full. Once you reach your storage limit on Gmail, you won’t be able to receive any new emails, but old messages remain intact.
 
